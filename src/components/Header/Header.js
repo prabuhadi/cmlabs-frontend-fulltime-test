@@ -10,11 +10,12 @@ const Header = () => {
       <div className="header-content flex align-center justify-center flex-column text-center">
         <SearchForm />
         <h1 className="text-white header-title ls-2">
-          What are your <span>favorite cuisines?</span>
+          What are your{" "}
+          <span style={{ color: "#ff922b" }}>favorite cuisines?</span>
         </h1>
         <p className="text-uppercase text-white my-3 ls-1">
           get your best recipes{" "}
-          <span>
+          <span style={{ color: "#ff922b" }}>
             <strong>right here</strong>
           </span>
         </p>
