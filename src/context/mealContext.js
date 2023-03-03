@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useReducer } from "react";
 import { mealReducer } from "../reducers/mealReducer";
+import { startFetchCategories } from "../actions/mealsActions";
 
 const initialState = {
   categories: [],
@@ -14,13 +15,16 @@ const MealContext = createContext({});
 export const MealProvider = ({ children }) => {
   const [state, dispatch] = useReducer(mealReducer, initialState);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    startFetchCategories(dispatch);
+  }, []);
 
   return (
     <MealContext.Provider
       value={{
         ...state,
         dispatch,
+        startFetchCategories,
       }}
     >
       {children}
