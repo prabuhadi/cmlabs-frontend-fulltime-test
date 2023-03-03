@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+# FoodPedia : Your Best Recipes 🍒
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A food recipe landing page built using React.js and API from themealdb.com would be an interactive website that allows users to search for and view a variety of meal recipes. The landing page would feature a search bar where users can enter keywords to find specific recipes or browse through a variety of categories, such as appetizers, entrees, and desserts. 🍤
 
-## Available Scripts
+The page would display a list of matching recipes with images, names, and brief descriptions. Users could click on a recipe to view more detailed information, including ingredients, preparation instructions, and nutritional information. The landing page would also provide options for users to save their favorite recipes, share them on social media, or print them out. 🍖
 
-In the project directory, you can run:
+Overall, a food recipe landing page built using React.js and API from themealdb.com would provide users with a convenient and user-friendly platform for exploring and discovering new meal ideas. 🍕
+
+## Preview Desktop 🍜
+
+![preview-desktop1](/src/assets/preview/preview-dekstop1.png)
+
+![preview-desktop2](/src/assets/preview/preview-desktop2.png)
+
+## Preview Mobile 🥗
+
+<img src='/src/assets/preview/preview-mobile1.PNG' width='350' alt='Preview Mobile 1' />
+<img src='/src/assets/preview/preview-mobile2.PNG' width='350' alt='Preview Mobile 2' />
+
+## How to run the project
+
+In the project directory, you can run it by running the available script:
 
 ### `npm start`
 
@@ -13,11 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -29,42 +39,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
