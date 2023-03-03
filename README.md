@@ -14,12 +14,14 @@ Overall, a food recipe landing page built using React.js and API from themealdb.
 
 ## Preview Mobile 🥗
 
-<img src='/src/assets/preview/preview-mobile1.PNG' width='350' alt='Preview Mobile 1' />
-<img src='/src/assets/preview/preview-mobile2.PNG' width='350' alt='Preview Mobile 2' />
+<div>
+<img src='/src/assets/preview/preview-mobile1.PNG' align='center' width='400' alt='Preview Mobile 1' />
+<img src='/src/assets/preview/preview-mobile2.PNG' align='right' width='400' alt='Preview Mobile 2' />
+</div>
 
 ## How to run the project
 
-In the project directory, you can run it by running the available script:
+In the project directory, you can run it by opening your terminal running the available script:
 
 ### `npm start`
 
@@ -39,8 +41,16 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Learn More
+## Project Literation
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Learn more about SASS , visit [Sass Structure Stylesheet](https://sass-lang.com/documentation/syntax/structure#literals)
+
+Free meal API, by [TheMealDB.com](https://www.themealdb.com/)
+
+Retrieving API data using Axios, learn more about [Axios](https://axios-http.com/docs/intro)
+
+Several icon using from [React-icon](https://react-icons.github.io/react-icons/)
