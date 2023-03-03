@@ -3,6 +3,7 @@ import "./Header.scss";
 import { BsSearch } from "react-icons/bs";
 import { useMealContext } from "../../context/mealContext";
 import { useNavigate } from "react-router-dom";
+import { startFetchMealsBySearch } from "../../actions/mealsActions";
 
 const SearchForm = () => {
   const navigate = useNavigate();
@@ -23,6 +24,7 @@ const SearchForm = () => {
   const handleSearchResult = (e) => {
     e.preventDefault();
     navigate("/");
+    startFetchMealsBySearch(dispatch, searchTerm);
   };
 
   return (

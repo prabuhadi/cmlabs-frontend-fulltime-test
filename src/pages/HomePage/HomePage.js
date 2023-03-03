@@ -8,6 +8,7 @@ import MealList from "../../components/Meal/MealList";
 
 const HomePage = () => {
   const { categories, meals, categoryLoading, mealsLoading } = useMealContext();
+
   return (
     <main className="main-content">
       {mealsLoading ? (

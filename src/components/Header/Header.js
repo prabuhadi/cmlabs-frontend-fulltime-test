@@ -1,19 +1,26 @@
-import React from 'react';
+import React from "react";
 import "./Header.scss";
 import Navbar from "./Navbar";
 import SearchForm from "./SearchForm";
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className="header">
       <Navbar />
-      <div className='header-content flex align-center justify-center flex-column text-center'>
+      <div className="header-content flex align-center justify-center flex-column text-center">
         <SearchForm />
-        <h1 className='text-white header-title ls-2'>What are your favorite cuisines?</h1>
-        <p className='text-uppercase text-white my-3 ls-1'>personalize your experience</p>
+        <h1 className="text-white header-title ls-2">
+          What are your <span>favorite cuisines?</span>
+        </h1>
+        <p className="text-uppercase text-white my-3 ls-1">
+          get your best recipes{" "}
+          <span>
+            <strong>right here</strong>
+          </span>
+        </p>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
